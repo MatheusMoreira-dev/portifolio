@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    gap: 32px;
+}
+
+.links__pagina > a, .links__externo > a{
+    padding: 6px;
+}
